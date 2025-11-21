@@ -62,9 +62,13 @@ python manage.py runserver
 - **Database:** SQLite
 - **Environment:** Local development with venv
 
-🔌 API
+🔌 API   
 - Built with Django REST Framework
 - CORS handled via django-cors-headers
+
+Credits:
+Project inspiration and guided tutorial by Dennis Ivy.
+Frontend Theme provided by Dennis Ivy.
 
 🤝 Contributing
 Contributions are welcome!
