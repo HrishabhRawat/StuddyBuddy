@@ -1,0 +1,18 @@
+{
+  // Use the virtual environment's Python interpreter
+  "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
+
+  // Help VS Code find installed packages like djangorestframework
+  "python.analysis.extraPaths": ["./venv/Lib/site-packages"],
+  
+  
+
+
+  // Use the Pylance language server for better IntelliSense
+  "python.languageServer": "Pylance",
+
+  // (Optional) Hide false unresolved import warnings
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  }
+}
